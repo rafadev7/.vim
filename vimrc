@@ -55,4 +55,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 " Shortcut
 map <C-n> :NERDTreeToggle<CR>           " Open/Close NERDTree
-map <C-m> :NERDTree<CR>                 " Focus on NERDTree
+
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
