@@ -7,6 +7,8 @@ I've installed Vundle following this instructions in: https://github.com/gmarik/
 
 Then I've created a symling pointing to my .vimrc file just to move this file into my ~/.vim folder, using: `ln -s ~/.vim/vimrc ~/.vimrc`
 
+Then you need to install all the plugins, launch vim and run :BundleInstall
+
 To Open/Close NERD Tree, use Ctrl+n
 To focus on NERD Tree, use Ctrl+m
 To focus in differents windows, use Ctr+ww
