@@ -56,7 +56,14 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " Shortcut
 map <C-n> :NERDTreeToggle<CR>           " Open/Close NERDTree
 
-set smartindent
-set tabstop=4
-set shiftwidth=4
-set expandtab
+" set smartindent
+" set tabstop=4
+" set shiftwidth=4
+" set expandtab
+
+ 
+" It's to use all the Go Vim plugins
+filetype plugin indent off
+set runtimepath+=$GOROOT/misc/vim
+filetype plugin indent on
+syntax on

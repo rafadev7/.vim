@@ -20,3 +20,5 @@ In NERD Tree,
 - m: Show the NERD Tree menu
 - R: Refresh the tree, useful if files change outside of Vim
 - ?: Toggle NERD Tree's quick help
+
+I've added some code to use all Vim plugins for Golang too
