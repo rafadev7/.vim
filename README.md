@@ -4,8 +4,13 @@ It's just my vim setup.
 I've installed in Arch Linux using: `pacman -S vim`
 
 I've installed Vundle following this instructions in: https://github.com/gmarik/vundle
+   `$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
 
 Then I've created a symling pointing to my .vimrc file just to move this file into my ~/.vim folder, using: `ln -s ~/.vim/vimrc ~/.vimrc`
+
+Remember, when you are using Ubuntu to put your keyboard map to portuguese. Just add this line in `.bashrc`
+
+   `setxkbmap -model abnt2 -layout br -variant abnt2`
 
 Then you need to install all the plugins, launch vim and run :BundleInstall
 
